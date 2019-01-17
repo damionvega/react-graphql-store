@@ -1,4 +1,4 @@
-require('dotenv').config({ path: 'variables.env' });
+require('dotenv').config({ path: '.env' });
 const cookieParser = require('cookie-parser');
 const createServer = require('./createServer');
 const jwt = require('jsonwebtoken');
